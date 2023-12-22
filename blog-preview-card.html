@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution{
+      margin-top: 20px;
+    }
+
+    .main-bg{
+      background-color:hsl(47, 88%, 63%);
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .card{
+      background-color: white;
+      width: 300px;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 8px;
+      box-shadow:  10px 10px  black;
+    }
+    .card-img{
+      width: 300px;
+      border-radius: 8px;
+    }
+    .learning-btn{
+      background-color:hsl(47, 88%, 63%);
+      padding: 5px;
+      border: 0px;
+      border-radius: 5px;
+      color: black;
+      height: 30px;
+      font-weight: 600;
+      margin-top: 10px;
+    }
+    .items{
+      display: flex;
+    }
+    .name{
+      font-weight: 900;
+      color: black;
+      margin: 10px 0 0 10px;
+    }
+    .text{
+      color: grey;
+    }
+      h2:hover{
+        color: hsl(47, 88%, 63%);
+        cursor: pointer; 
+      }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="main-bg">
+        <div class="card">
+          <img src="https://i.postimg.cc/pLK0HpM2/Untitled-design.png" class="card-img"/>
+          <button class="learning-btn">Learning</button>
+          <p style="font-weight: 400;">Published 21 Dec 2023</p>
+          <h2>HTML & CSS foundations</h2>
+          <p class="text">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+          <div class="items">
+            <img src="https://i.postimg.cc/tJhbP9Vp/image-avatar.webp" height="40px"/>
+            <p class="name">Greg Hooper</p>
+          </div>
+
+          <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="#">Vardhan Reddy</a>.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</body>
+</html>
